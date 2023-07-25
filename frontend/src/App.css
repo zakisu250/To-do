@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .App {
+  text-align: center;
+} */
+.main-head {
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 7vh;
+  padding-top: 2rem;
+}
+.input-holder {
+  display: flex;
+  margin: 10px 5px;
+  justify-content: center;
+}
+
+input {
+  padding: 1px 5px;
+  min-height: 20px;
+  border: 1px solid rgb(50, 50, 50);
+  border-radius: 2%;
+  font-size: 1.5rem;
+}
+
+.add-butt {
+  padding: 7px 35px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 2%;
+  color: rgb(36, 33, 33);
+  background-image: linear-gradient(to bottom right, #f2a9ff, #93f2ff);
+  border: 1px solid rgb(134, 134, 134);
+  height: 150%;
+  transition: all 0.3s ease;
+}
+.add-butt:hover {
+  background-image: linear-gradient(to bottom right, #c85cdb, #49b1be);
+  transition: all 0.5s ease;
+}
+.items {
+  background: linear-gradient(to bottom right, #d900ff, #00e1ff);
+}
+.items {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.list-items .butt {
+  flex: 0.1;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.main-content {
+  margin: 0 auto;
+  width: 60vw;
+  margin-top: 2rem;
+  background: #f0f0f0;
+}
+.list-items {
+  background: #ebebeb9c;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  align-items: center;
+  padding: 2px 4px;
+}
+li {
+  flex: 0.7;
+  font-size: 1.5rem;
+  list-style: none;
+}
+.sub-mit {
+  position: relative;
+  margin-left: 5px;
+  top: -2px;
+  align-self: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.new-butt {
+  font-size: 18px;
+  padding: 2px 5px;
+  color: rgb(238, 238, 238);
+  background-image: linear-gradient(to bottom right, #c85cdb, #49b1be);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.new-butt:hover {
+  color: black;
+}
